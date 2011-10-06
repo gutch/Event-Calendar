@@ -1,1 +1,16 @@
-"Event Calendar"
+This is for turbogears there is a sample here http://www.openschooltech.com/cal
+
+There is a field for event type where I use options in the form.
+
+The model will have to be incorporated into your project  - -        imported to __init__ and Controller.
+
+The DB will have to be setup  - -              paster setup-app ['development.ini'] or whatever and don't forget to delete old devdata first.
+
+I included some javascript in the template, but it can be moved.  this is just to navigate from month to month.
+
+
+Just put the python code for the controller into your project and navigate to  yourproject/cal.  
+
+Amazing.
+
+
